@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const messages = [
     "WHAT?",
     "FUCK YOUUUU??",
-    "EFN?",
+    "TWIN?",
     "WHYYYYYYYY",
     "NOOOOOOOOOOOO!",
     "im very tired so i cant offer better sepsis...",
     "epiptisis",
     "apsp",
     "i'm running out of quotes",
-    "Just kidding, say yes please! ❤️"
+    "I become lesbian for you twin "
   ];
 
   let messageIndex = 0;
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentSize = parseFloat(
       window.getComputedStyle(yesButton).fontSize
     );
-    yesButton.style.fontSize = `${currentSize * 1.5}px`;
+    yesButton.style.fontSize = `${currentSize * 1.2}px`;
   };
 
   window.handleYesClick = function () {
