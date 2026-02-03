@@ -54,3 +54,15 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "yes_page.html";
   };
 });
+setTimeout(() => {
+  const a = document.getElementById("bgMusic");
+  if (a) {
+    a.muted = false;
+    a.volume = 1;
+    a.play().then(() => {
+      console.log("🎵 AUDIO GRA");
+    }).catch(e => {
+      console.error("❌ AUDIO BLOCKED", e);
+    });
+  }
+}, 3000);
